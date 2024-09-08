@@ -1,5 +1,6 @@
 #![allow(non_snake_case)]
 
+use super::Send;
 use crate::Comment;
 use dioxus::prelude::*;
 
@@ -23,6 +24,9 @@ pub fn Comments() -> Element {
             for comment in data.comments {
               StoryComment { comment }
             }
+          }
+          div { class: "w-full",
+            Send {}
           }
         },
     }
