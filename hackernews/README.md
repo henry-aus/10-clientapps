@@ -8,6 +8,12 @@
 npx tailwindcss -i ./input.css -o ./assets/tailwind.css --watch
 ```
 
+Install dioxus client
+
+```bash
+cargo install dioxus-cli
+```
+
 Run the following command in the root of the project to start the Dioxus dev server:
 
 ```bash
